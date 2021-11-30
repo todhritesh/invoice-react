@@ -13,10 +13,10 @@ const Voicecard = (props) => {
                     </Box>
                     <CardContent>
                         <Typography align="center" variant="h5">
-                        Quotes, Invoices, Payments
+                            {props.voicecardheading}
                         </Typography>
                         <Typography align="center" variant="subtitle1">
-                        nvoicePlane is a solid application to manage your complete billing circle: from quotes over invoices to payments.
+                            {props.voicecardcontent}
                         </Typography>
                     </CardContent>
                 </Card>
